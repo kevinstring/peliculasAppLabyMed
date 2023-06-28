@@ -1,0 +1,67 @@
+.divContainerForm{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+        width: 500px;
+        height: 100px;  
+        background-color: rgb(56, 26, 224);
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: -3px 0px 34px 0px rgba(0,0,0,0.75);
+  
+}
+
+.divContainerBusqueda{
+    background-color: rgb(180, 14, 14);
+    width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+h2,h3,h4{
+    color: white;
+}
+a{
+    box-shadow: -3px 0px 34px 0px rgba(0,0,0,0.75);
+
+    background-color: rgba(0, 89, 255, 0.432);
+    border-radius: 10px;
+
+    height: 550px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: 1s;
+
+}
+a:hover{
+    transform: scale(1.1);
+}
+
+img{
+    border-radius: 10px;
+   max-width: 200px;
+}
+
+.divContainerDesc{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

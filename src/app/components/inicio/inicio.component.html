@@ -1,0 +1,23 @@
+<div class="divContainerForm">
+    <form  [formGroup]="formulario" (ngSubmit)="buscar()">
+    
+    <input type="text" placeholder="Ingrese Nombre" formControlName="nombre" >
+    <input type="text" placeholder="Ingrese Año" formControlName="year"> 
+      <button type="submit">Buscar</button>
+    </form>
+    </div>
+    
+    <div class="divContainerBusqueda" *ngIf="peticionForm.length!=0" >
+               <div class="divPeliculaMostrar"  *ngFor="let i of peticionForm; let in=index " >
+                <a routerLink="/descripcion/{{in}}" >  
+                        <h2>Titulo: {{i.Title}}</h2>
+                        <h3>Anio: {{i.Year}}</h3>
+                        <img [src]="i.Poster" >
+                       <h4> {{i.Rated}}</h4>
+                    </a>       
+                </div>
+         
+      
+
+
+    </div>

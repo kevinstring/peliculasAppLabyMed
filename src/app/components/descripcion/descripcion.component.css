@@ -1,0 +1,23 @@
+
+
+img{
+    border-radius: 10px;
+    width: 250px;
+}
+
+
+.divContainerDesc{
+
+ border-radius: 10px;
+ background-color: rgba(206, 255, 239, 0.342);
+margin: auto;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: -3px 0px 34px 0px rgba(0,0,0,0.75);
+
+}
